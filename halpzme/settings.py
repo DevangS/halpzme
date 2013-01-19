@@ -123,19 +123,19 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'bootstrap',
     'south',
     'userena',
     'guardian',
     'easy_thumbnails',
     'accounts',
+    'bootstrap_toolkit',
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
 ANONYMOUS_USER_ID = -1
 
-AUTH_PROFILE_MODULE = 'accounts.MyProfile'
+AUTH_PROFILE_MODULE = 'accounts.Profile'
 
 LOGIN_REDIRECT_URL = '/accounts/%(username)s/'
 LOGIN_URL = '/accounts/signin/'
