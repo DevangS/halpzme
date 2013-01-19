@@ -7,4 +7,4 @@ class Profile(UserenaBaseProfile):
     user = models.OneToOneField(User,
                                 unique=True,
                                 verbose_name=_('user'),
-                                related_name='my_profile'))
+                                related_name='my_profile')
