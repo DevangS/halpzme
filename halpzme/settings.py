@@ -128,6 +128,7 @@ INSTALLED_APPS = (
     'guardian',
     'easy_thumbnails',
     'accounts',
+    'bootstrap_toolkit',
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
